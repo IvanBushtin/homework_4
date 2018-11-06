@@ -1,0 +1,87 @@
+header{
+	background-color: #3695ff;
+	background-image: url(../images/2-layers.png);
+}
+.cookies{
+	text-align: center;
+	background-color: #194277;
+}
+.cookies_text{
+	display: inline;
+	padding-right: 51px;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 36px;
+}
+.accept_button{
+	width: 112px;
+	height: 30px;
+	margin-top: 22px;
+	margin-bottom: 20px;
+	border-radius: 15px;
+	background-color: #ffffff;
+	outline: none;
+	color: #194277;
+	font-family: Lato;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 16.36px;
+	letter-spacing: 0.55px;
+}
+.welcome{
+	text-align: center;
+}
+.header_image{
+	width: 185px;
+	height: 185px;
+	padding-top: 94px;
+	padding-bottom: 53px;
+}
+.heading{
+	width: 809px;
+	height: 98px;
+	margin: 0 auto;
+	padding-top: 0;
+	padding-bottom: 42px;
+	color: #ffffff;
+	font-family: "Lato - Black";
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 60px;
+	text-transform: uppercase;
+}
+.heading_text{
+	width: 765px;
+	height: 50px;
+	margin: 0 auto;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 35px;
+	text-transform: uppercase;
+}
+.hire_me_button{
+	display: block;
+	width: 204px;
+	height: 55px;
+	margin-top: 75px;
+	margin-bottom: 92px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 28px;
+	background-color: #ffffff;
+	color: #3695ff;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+}
+.pointer{
+	width: 19px;
+	height: 32px;
+}
