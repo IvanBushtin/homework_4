@@ -1,4 +1,4 @@
-header{
+.header_1{
 	background-color: #3695ff;
 	background-image: url(../images/2-layers.png);
 }
@@ -8,23 +8,22 @@ header{
 }
 .cookies_text{
 	display: inline;
-	padding-right: 51px;
+	margin-right: 51px;
 	color: #ffffff;
-	font-family: Lato;
+	font-family: 'Lato' sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 36px;
 }
 .accept_button{
-	width: 112px;
-	height: 30px;
 	margin-top: 22px;
 	margin-bottom: 20px;
+	padding: 10px 34px 8px 37px;
 	border-radius: 15px;
 	background-color: #ffffff;
 	outline: none;
 	color: #194277;
-	font-family: Lato;
+	font-family: 'Lato' sans-serif;
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 16.36px;
@@ -33,31 +32,29 @@ header{
 .welcome{
 	text-align: center;
 }
+.menu_button{
+	display: inline-block;
+	margin-top: 31px;
+	margin-right: 15%;
+	margin-left: 70%;
+}
 .header_image{
-	width: 185px;
-	height: 185px;
-	padding-top: 94px;
-	padding-bottom: 53px;
+	margin-top: 44px;
+	margin-bottom: 53px;
 }
 .heading{
-	width: 809px;
-	height: 98px;
-	margin: 0 auto;
-	padding-top: 0;
 	padding-bottom: 42px;
 	color: #ffffff;
-	font-family: "Lato - Black";
+	font-family: 'Lato' sans-serif;
 	font-size: 50px;
 	font-weight: 400;
 	line-height: 60px;
 	text-transform: uppercase;
 }
 .heading_text{
-	width: 765px;
-	height: 50px;
-	margin: 0 auto;
+	margin: 0 20%;
 	color: #ffffff;
-	font-family: Lato;
+	font-family: 'Lato' sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 35px;
@@ -65,16 +62,15 @@ header{
 }
 .hire_me_button{
 	display: block;
-	width: 204px;
-	height: 55px;
 	margin-top: 75px;
+	margin-right: auto;
 	margin-bottom: 92px;
 	margin-left: auto;
-	margin-right: auto;
+	padding: 21px 70px 22px 69px;
 	border-radius: 28px;
 	background-color: #ffffff;
 	color: #3695ff;
-	font-family: Lato;
+	font-family: 'Lato' sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 30px;
@@ -82,48 +78,42 @@ header{
 	letter-spacing: 0.4px;
 }
 .pointer{
-	width: 19px;
-	height: 32px;
+	margin-top: 92px;
+	margin-bottom: 24px;
 }
+
 .about{
 	text-align: center;
 }
 .about_heading{
-	width: 213px;
-	height: 38px;
 	margin: 0 auto;
 	padding-top: 98px;
 	padding-bottom: 69px;
 	color: #3677fd;
-	font-family: Lato;
+	font-family: 'Lato' sans-serif;
 	font-size: 50px;
 	font-weight: 300;
 	line-height: 35.12px;
 }
 .about_text{
-	height: 85px;
-	max-width: 1170px;
-	margin: 0 auto;
+	margin: 0 20%;
 	padding-bottom: 115px;
 	color: #5a5a5a;
-	font-family: Lato;
+	font-family: 'Lato' sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 35px;
 }
 
 .expert_in{
-	height: 1178px;
 	background-color: #f1f8ff;
+	text-align: center;
 }
 .expert_in_heading{
-	width: 195px;
-	height: 45px;
-	margin: 0 auto;
 	padding-top: 99px;
 	padding-bottom: 113px;
 	color: #3677fd;
-	font-family: Lato;
+	font-family: 'Lato' sans-serif;
 	font-size: 50px;
 	font-weight: 300;
 	line-height: 35.12px;
@@ -131,34 +121,23 @@ header{
 }
 .expert_in_1,.expert_in_2,.latest_works1,.latest_works2{
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	text-align: center;
 }
+.expert_in_1,.expert_in_2{
+	margin: 0px 10%;
+}
 .expert_in_2{
 	padding-top: 37px;
-}
-.mobile_app_design,.web_design,.web_development,
-.product_design,.ux_ui,.animations{
-	height: 440px;
+	padding-bottom: 100px;
 }
 .mobile_app_design,.web_design,.product_design,.ux_ui{
 	margin-right:63px;
 }
-.mobile_image,.web_design_image,.web_development_image,
-.product_design_image,.ux_ui_image,.animations_image{
-	padding-bottom:100px;
-}
 .mobile_heading,.web_design_heading,.web_development_heading,
 .product_design_heading,.ux_ui_heading,.animations_heading{
-	width: 300px;
-	height: 18px;
-	margin-top: 0;
-	margin-right: auto;
-	margin-bottom: 33px;
-	margin-left: auto;
 	color: #3677fd;
-	font-family: Lato;
+	font-family: 'Lato' sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 24px;
@@ -166,23 +145,22 @@ header{
 }
 .mobile_text,.web_design_text,.web_development_text,
 .product_design_text,.ux_ui_text,.animations_text{
-	max-width: 340px;
 	color: #5a5a5a;
-	font-family: Lato;
+	font-family: 'Lato' sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 35px;
 }
 
+.latest_works{
+	text-align: center;
+}
 
 .latest_works_heading{
-	max-width: 285px;
-	height: 38px;
-	margin: 0 auto;
 	padding-top: 91px;
 	padding-bottom: 104px;
 	color: #3677fd;
-	font-family: Lato;
+	font-family: 'Lato' sans-serif;
 	font-size: 50px;
 	font-weight: 300;
 	line-height: 35.12px;
@@ -195,20 +173,19 @@ header{
 	margin-bottom: 194px;
 }
 .work1,.work2,.work4,.work5{
-	padding-right: 31px;
+	margin-right: 31px;
 }
+
 .clients_footer{
 	background-color: #f1f8ff;
 	text-align: center;
 }
+
 .clients_footer_heading{
-	max-width: 146px;
-	height: 38px;
-	margin: 0 auto;
 	padding-top: 94px;
 	padding-bottom: 76px;
 	color: #3677fd;
-	font-family: Lato;
+	font-family: 'Lato' sans-serif;
 	font-size: 50px;
 	font-weight: 300;
 	line-height: 35.12px;
@@ -216,7 +193,8 @@ header{
 }
 .clients_footer_image{
 	padding-bottom: 99px;
-}	
+}
+
 .hire_me_footer{
 	text-align: center;
 	background-color: #e8f3ff;
@@ -224,10 +202,10 @@ header{
 }
 .footer_heading{
 	display: inline-block;
-	padding-right: 64px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 .need,.ready{
-	height: 47px;
 	color: #ffffff;
 	font: 50px 'Lato', sans-serif;
 	line-height: 65px;
@@ -240,9 +218,8 @@ header{
 }
 .hire_me_button_footer{
 	display: inline-block;
-	width: 204px;
-	height: 55px;
-	margin: 90px auto;
+	margin-left: 64px;
+	padding: 21px 70px 22px 69px;
 	border-radius: 28px;
 	background-color: #ffffff;
 	color: #3695ff;
